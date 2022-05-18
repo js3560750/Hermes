@@ -15,12 +15,16 @@
 7. 完整的交易动作日志记录
 
 # 如何使用
-1. 在ApiKeyConfig里配置自己的币安交易API KEY
-2. 在ExchangeInfoConfig里配置交易账户的金额和交易的币种
-3. 在MailService里配置邮箱信息用来接受交易结果通知
-4. 在MacdTask里根据需要选择交易策略
-5. 用mvn命令打包，并上传jar包到服务器。或者本地LvApplication启动
-6. 在服务器启动jar包程序，交易机器人就开始运行啦
+## 配置
+1. 在 ApiKeyConfig 里配置自己的币安交易API KEY
+2. 在 ExchangeInfoConfig 里配置交易账户的金额和交易的币种
+3. 在 MailService 里配置邮箱信息用来接受交易结果通知
+4. 在 MacdTask 里根据需要选择交易策略
+
+## 启动
+服务器运行：用mvn命令打包，并上传jar包到服务器，在服务器启动jar包程序，交易机器人就开始运行啦。
+本地运行：本地LvApplication启动
+
 
 ----
 
