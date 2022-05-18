@@ -3,7 +3,10 @@
 
 # 简介
 可根据实时行情自动在币安上交易现货的量化交易机器人，支持秒级行情解析、策略分析、交易动作，已经经过数十万USDT的真实金额交易的验证。
-在牛市，是可以赚钱的，但在熊市，该交易机器人也一定是会亏钱的。开源只是提供机会给普通程序员一个更广阔的视野，交易有风险，盈利无需打赏，亏损也不负责哈~~
+在牛市，是可以赚钱的，但在熊市，该交易机器人也一定是会亏钱的。
+
+# 重要
+开源只是提供机会给普通程序员一个更广阔的视野，交易有风险，盈利无需打赏，亏损也不负责哈~~
 
 # 功能
 1. 毫秒级现货行情获取
@@ -33,7 +36,9 @@ Binance Quantitative Trading Robot
 
 # Introduction
 A quantitative trading robot that can automatically trade spot on Binance according to real-time market conditions. It supports second-level market analysis, strategy analysis, and trading actions. It has been verified by hundreds of thousands of USDT transactions.
-In a bull market, you can make money, but in a bear market, the trading robot will definitely lose money. Open source only provides opportunities for ordinary programmers to have a broader vision. Transactions are risky, no rewards are required for profits, and no losses are responsible.
+In a bull market, you can make money, but in a bear market, the trading robot will definitely lose money.
+
+Open source only provides opportunities for ordinary programmers to have a broader vision. Transactions are risky, no rewards are required for profits, and no losses are responsible.
 
 # Features
 1. Millisecond-level spot market acquisition
