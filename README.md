@@ -14,9 +14,10 @@
 2. 实时指标分析计算，目前支持MACD\RSI\BOLL三种
 3. 提供多种交易策略，如基于MACD涨跌的交易策略，基于实时价格突变的交易策略等
 4. 完备的交易订单管理体系，支持跟踪止盈止损、分段止盈止损、时间止盈止损等
-5. 交易动作及行情邮件提醒
-6. 可用Swagger来查询所有账户和交易单信息
-7. 完整的交易动作日志记录
+5. 支持过去2年时间行情回测分析，可用于快速回测交易策略，获取策略盈亏结果
+6. 交易动作及行情邮件提醒
+7. 可用Swagger来查询所有账户和交易单信息
+8. 完整的交易动作日志记录
 
 # 如何使用
 ## 配置
@@ -46,9 +47,10 @@ Open source only provides opportunities for ordinary programmers to have a broad
 2. Real-time indicator analysis and calculation, currently supports three types of MACD\RSI\BOLL
 3. Provide a variety of trading strategies, such as trading strategies based on MACD fluctuations, trading strategies based on real-time price changes, etc.
 4. Complete transaction order management system, support tracking stop profit and stop loss, segment stop profit and stop loss, time stop profit and stop loss, etc.
-5. Transaction action and market email reminder
-6. Swagger can be used to query all account and transaction information
-7. Complete transaction action logging
+5. Supports market backtest analysis in the past 2 years, which can be used to quickly backtest trading strategies and obtain strategy profit and loss results
+6. Transaction action and market email reminder
+7. Swagger can be used to query all account and transaction information
+8. Complete transaction action logging
 
 # How
 1. Configure your own Binance Trading API KEY in ApiKeyConfig
