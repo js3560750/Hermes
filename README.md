@@ -1,7 +1,4 @@
 # Hermes
-Binance Quantitative Trading Robot
-
-# Hermes
 币安数字货币量化交易机器人
 
 # 简介
@@ -24,3 +21,30 @@ Binance Quantitative Trading Robot
 4. 在MacdTask里根据需要选择交易策略
 5. 用mvn命令打包，并上传jar包到服务器。或者本地LvApplication启动
 6. 在服务器启动jar包程序，交易机器人就开始运行啦
+
+----
+
+# Hermes
+Binance Quantitative Trading Robot
+
+# Introduction
+A quantitative trading robot that can automatically trade spot on Binance according to real-time market conditions. It supports second-level market analysis, strategy analysis, and trading actions. It has been verified by hundreds of thousands of USDT transactions.
+In a bull market, you can make money, but in a bear market, the trading robot will definitely lose money. Open source only provides opportunities for ordinary programmers to have a broader vision. Transactions are risky, no rewards are required for profits, and no losses are responsible.
+
+# Features
+1. Millisecond-level spot market acquisition
+2. Real-time indicator analysis and calculation, currently supports three types of MACD\RSI\BOLL
+3. Provide a variety of trading strategies, such as trading strategies based on MACD fluctuations, trading strategies based on real-time price changes, etc.
+4. Complete transaction order management system, support tracking stop profit and stop loss, segment stop profit and stop loss, time stop profit and stop loss, etc.
+5. Transaction action and market email reminder
+6. Swagger can be used to query all account and transaction information
+7. Complete transaction action logging
+
+# HOW
+1. Configure your own Binance Trading API KEY in ApiKeyConfig
+2. Configure the amount of the trading account and the currency of the transaction in ExchangeInfoConfig
+3. Configure mailbox information in MailService to receive transaction result notifications
+4. Select the trading strategy as needed in MacdTask
+5. Use the mvn command to package and upload the jar package to the server. Or start the local LvApplication
+6. Start the jar package program on the server, and the trading robot will start running
+
