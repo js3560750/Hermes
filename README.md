@@ -44,7 +44,7 @@ In a bull market, you can make money, but in a bear market, the trading robot wi
 6. Swagger can be used to query all account and transaction information
 7. Complete transaction action logging
 
-# HOW
+# How
 1. Configure your own Binance Trading API KEY in ApiKeyConfig
 2. Configure the amount of the trading account and the currency of the transaction in ExchangeInfoConfig
 3. Configure mailbox information in MailService to receive transaction result notifications
